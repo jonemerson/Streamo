@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC47AE891E5BD3EF00FBA246 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC47AE881E5BD3EF00FBA246 /* AppDelegate.swift */; };
+		FC47AE8B1E5BD3EF00FBA246 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC47AE8A1E5BD3EF00FBA246 /* ViewController.swift */; };
+		FC47AE8E1E5BD3EF00FBA246 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC47AE8C1E5BD3EF00FBA246 /* Main.storyboard */; };
+		FC47AE901E5BD3EF00FBA246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC47AE8F1E5BD3EF00FBA246 /* Assets.xcassets */; };
+		FC47AE931E5BD3EF00FBA246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC47AE911E5BD3EF00FBA246 /* LaunchScreen.storyboard */; };
+		FC47AE9E1E5BD3EF00FBA246 /* StreamoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC47AE9D1E5BD3EF00FBA246 /* StreamoTests.swift */; };
+		FC47AEA91E5BD3EF00FBA246 /* StreamoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC47AEA81E5BD3EF00FBA246 /* StreamoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC47AE9A1E5BD3EF00FBA246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC47AE7D1E5BD3EE00FBA246 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC47AE841E5BD3EE00FBA246;
+			remoteInfo = Streamo;
+		};
+		FC47AEA51E5BD3EF00FBA246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC47AE7D1E5BD3EE00FBA246 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC47AE841E5BD3EE00FBA246;
+			remoteInfo = Streamo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC47AE851E5BD3EF00FBA246 /* Streamo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Streamo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC47AE881E5BD3EF00FBA246 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC47AE8A1E5BD3EF00FBA246 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC47AE8D1E5BD3EF00FBA246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC47AE8F1E5BD3EF00FBA246 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC47AE921E5BD3EF00FBA246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC47AE941E5BD3EF00FBA246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC47AE991E5BD3EF00FBA246 /* StreamoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC47AE9D1E5BD3EF00FBA246 /* StreamoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamoTests.swift; sourceTree = "<group>"; };
+		FC47AE9F1E5BD3EF00FBA246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC47AEA41E5BD3EF00FBA246 /* StreamoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC47AEA81E5BD3EF00FBA246 /* StreamoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamoUITests.swift; sourceTree = "<group>"; };
+		FC47AEAA1E5BD3EF00FBA246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC47AE821E5BD3EE00FBA246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC47AE961E5BD3EF00FBA246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC47AEA11E5BD3EF00FBA246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC47AE7C1E5BD3EE00FBA246 = {
+			isa = PBXGroup;
+			children = (
+				FC47AE871E5BD3EF00FBA246 /* Streamo */,
+				FC47AE9C1E5BD3EF00FBA246 /* StreamoTests */,
+				FC47AEA71E5BD3EF00FBA246 /* StreamoUITests */,
+				FC47AE861E5BD3EF00FBA246 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC47AE861E5BD3EF00FBA246 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC47AE851E5BD3EF00FBA246 /* Streamo.app */,
+				FC47AE991E5BD3EF00FBA246 /* StreamoTests.xctest */,
+				FC47AEA41E5BD3EF00FBA246 /* StreamoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC47AE871E5BD3EF00FBA246 /* Streamo */ = {
+			isa = PBXGroup;
+			children = (
+				FC47AE881E5BD3EF00FBA246 /* AppDelegate.swift */,
+				FC47AE8A1E5BD3EF00FBA246 /* ViewController.swift */,
+				FC47AE8C1E5BD3EF00FBA246 /* Main.storyboard */,
+				FC47AE8F1E5BD3EF00FBA246 /* Assets.xcassets */,
+				FC47AE911E5BD3EF00FBA246 /* LaunchScreen.storyboard */,
+				FC47AE941E5BD3EF00FBA246 /* Info.plist */,
+			);
+			path = Streamo;
+			sourceTree = "<group>";
+		};
+		FC47AE9C1E5BD3EF00FBA246 /* StreamoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC47AE9D1E5BD3EF00FBA246 /* StreamoTests.swift */,
+				FC47AE9F1E5BD3EF00FBA246 /* Info.plist */,
+			);
+			path = StreamoTests;
+			sourceTree = "<group>";
+		};
+		FC47AEA71E5BD3EF00FBA246 /* StreamoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC47AEA81E5BD3EF00FBA246 /* StreamoUITests.swift */,
+				FC47AEAA1E5BD3EF00FBA246 /* Info.plist */,
+			);
+			path = StreamoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC47AE841E5BD3EE00FBA246 /* Streamo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC47AEAD1E5BD3EF00FBA246 /* Build configuration list for PBXNativeTarget "Streamo" */;
+			buildPhases = (
+				FC47AE811E5BD3EE00FBA246 /* Sources */,
+				FC47AE821E5BD3EE00FBA246 /* Frameworks */,
+				FC47AE831E5BD3EE00FBA246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Streamo;
+			productName = Streamo;
+			productReference = FC47AE851E5BD3EF00FBA246 /* Streamo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC47AE981E5BD3EF00FBA246 /* StreamoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC47AEB01E5BD3EF00FBA246 /* Build configuration list for PBXNativeTarget "StreamoTests" */;
+			buildPhases = (
+				FC47AE951E5BD3EF00FBA246 /* Sources */,
+				FC47AE961E5BD3EF00FBA246 /* Frameworks */,
+				FC47AE971E5BD3EF00FBA246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC47AE9B1E5BD3EF00FBA246 /* PBXTargetDependency */,
+			);
+			name = StreamoTests;
+			productName = StreamoTests;
+			productReference = FC47AE991E5BD3EF00FBA246 /* StreamoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC47AEA31E5BD3EF00FBA246 /* StreamoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC47AEB31E5BD3EF00FBA246 /* Build configuration list for PBXNativeTarget "StreamoUITests" */;
+			buildPhases = (
+				FC47AEA01E5BD3EF00FBA246 /* Sources */,
+				FC47AEA11E5BD3EF00FBA246 /* Frameworks */,
+				FC47AEA21E5BD3EF00FBA246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC47AEA61E5BD3EF00FBA246 /* PBXTargetDependency */,
+			);
+			name = StreamoUITests;
+			productName = StreamoUITests;
+			productReference = FC47AEA41E5BD3EF00FBA246 /* StreamoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC47AE7D1E5BD3EE00FBA246 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jon Emerson";
+				TargetAttributes = {
+					FC47AE841E5BD3EE00FBA246 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U67D8982G3;
+						ProvisioningStyle = Automatic;
+					};
+					FC47AE981E5BD3EF00FBA246 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC47AE841E5BD3EE00FBA246;
+					};
+					FC47AEA31E5BD3EF00FBA246 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC47AE841E5BD3EE00FBA246;
+					};
+				};
+			};
+			buildConfigurationList = FC47AE801E5BD3EE00FBA246 /* Build configuration list for PBXProject "Streamo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC47AE7C1E5BD3EE00FBA246;
+			productRefGroup = FC47AE861E5BD3EF00FBA246 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC47AE841E5BD3EE00FBA246 /* Streamo */,
+				FC47AE981E5BD3EF00FBA246 /* StreamoTests */,
+				FC47AEA31E5BD3EF00FBA246 /* StreamoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC47AE831E5BD3EE00FBA246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC47AE931E5BD3EF00FBA246 /* LaunchScreen.storyboard in Resources */,
+				FC47AE901E5BD3EF00FBA246 /* Assets.xcassets in Resources */,
+				FC47AE8E1E5BD3EF00FBA246 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC47AE971E5BD3EF00FBA246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC47AEA21E5BD3EF00FBA246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC47AE811E5BD3EE00FBA246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC47AE8B1E5BD3EF00FBA246 /* ViewController.swift in Sources */,
+				FC47AE891E5BD3EF00FBA246 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC47AE951E5BD3EF00FBA246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC47AE9E1E5BD3EF00FBA246 /* StreamoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC47AEA01E5BD3EF00FBA246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC47AEA91E5BD3EF00FBA246 /* StreamoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC47AE9B1E5BD3EF00FBA246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC47AE841E5BD3EE00FBA246 /* Streamo */;
+			targetProxy = FC47AE9A1E5BD3EF00FBA246 /* PBXContainerItemProxy */;
+		};
+		FC47AEA61E5BD3EF00FBA246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC47AE841E5BD3EE00FBA246 /* Streamo */;
+			targetProxy = FC47AEA51E5BD3EF00FBA246 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC47AE8C1E5BD3EF00FBA246 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC47AE8D1E5BD3EF00FBA246 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC47AE911E5BD3EF00FBA246 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC47AE921E5BD3EF00FBA246 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC47AEAB1E5BD3EF00FBA246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC47AEAC1E5BD3EF00FBA246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC47AEAE1E5BD3EF00FBA246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = U67D8982G3;
+				INFOPLIST_FILE = Streamo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonemerson.Streamo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FC47AEAF1E5BD3EF00FBA246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = U67D8982G3;
+				INFOPLIST_FILE = Streamo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonemerson.Streamo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FC47AEB11E5BD3EF00FBA246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StreamoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonemerson.StreamoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Streamo.app/Streamo";
+			};
+			name = Debug;
+		};
+		FC47AEB21E5BD3EF00FBA246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StreamoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonemerson.StreamoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Streamo.app/Streamo";
+			};
+			name = Release;
+		};
+		FC47AEB41E5BD3EF00FBA246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = StreamoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonemerson.StreamoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Streamo;
+			};
+			name = Debug;
+		};
+		FC47AEB51E5BD3EF00FBA246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = StreamoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonemerson.StreamoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Streamo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC47AE801E5BD3EE00FBA246 /* Build configuration list for PBXProject "Streamo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC47AEAB1E5BD3EF00FBA246 /* Debug */,
+				FC47AEAC1E5BD3EF00FBA246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC47AEAD1E5BD3EF00FBA246 /* Build configuration list for PBXNativeTarget "Streamo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC47AEAE1E5BD3EF00FBA246 /* Debug */,
+				FC47AEAF1E5BD3EF00FBA246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC47AEB01E5BD3EF00FBA246 /* Build configuration list for PBXNativeTarget "StreamoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC47AEB11E5BD3EF00FBA246 /* Debug */,
+				FC47AEB21E5BD3EF00FBA246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC47AEB31E5BD3EF00FBA246 /* Build configuration list for PBXNativeTarget "StreamoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC47AEB41E5BD3EF00FBA246 /* Debug */,
+				FC47AEB51E5BD3EF00FBA246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC47AE7D1E5BD3EE00FBA246 /* Project object */;
+}
